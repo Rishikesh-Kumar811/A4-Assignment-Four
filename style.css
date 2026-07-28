@@ -1,4 +1,4 @@
-﻿@layer reset, base, layout, components, utilities;
+@layer reset, base, layout, components, utilities;
 
 :root {
    --bg-color: oklch(100% 0 0);
@@ -27,7 +27,6 @@
 }
 
 @layer reset {
-
    *,
    *::before,
    *::after {
@@ -61,16 +60,13 @@
       font-variant-ligatures: common-ligatures;
 
       text-wrap: pretty;
-
    }
-
 
    :focus-visible {
       outline: 2px solid currentColor;
       outline-offset: 2px;
    }
 }
-
 
 body:has(#nav-links:popover-open) .sticker,
 body:has(#nav-links:popover-open) .graphic {
@@ -88,26 +84,21 @@ button {
    -webkit-user-select: none;
    user-select: none;
    -webkit-user-drag: none;
-
 }
-
 
 ::-webkit-scrollbar {
    display: none;
 }
-
 
 img,
 svg,
 video,
 canvas,
 picture {
-
    image-rendering: auto;
 
    shape-rendering: geometricPrecision;
 }
-
 
 .main-header {
    display: flex;
@@ -133,14 +124,11 @@ picture {
       block-size: 0.124rem;
       background-color: oklch(0% 0 0 / 9%);
       transition: opacity 0.3s ease;
-
    }
-
 
    &:has(#nav-links:popover-open)::after {
       opacity: 0;
    }
-
 
    &:has(#nav-links:popover-open) {
       background: var(--bg-color);
@@ -164,7 +152,6 @@ picture {
       display: none;
    }
 
-
    @media (width > 780px) {
       .nav-links {
          display: flex !important;
@@ -176,7 +163,6 @@ picture {
       inset-block-start: 50%;
       inset-inline-start: 50%;
       transform: translate(-50%, -50%);
-
 
       margin: 0;
       padding: 0;
@@ -263,7 +249,6 @@ picture {
    }
 }
 
-
 .content-wrapper {
    position: relative;
    max-inline-size: 1400px;
@@ -275,7 +260,6 @@ picture {
 
    container-name: bento-wrapper;
    transition: opacity 0.3s ease;
-
 }
 
 .typography-layer {
@@ -321,7 +305,6 @@ picture {
    container-type: inline-size;
 
    .subtitle {
-
       font-size: clamp(0.6rem, 1vw, 0.8rem);
       letter-spacing: 0.00625rem;
       word-spacing: 0.0625rem;
@@ -331,7 +314,6 @@ picture {
    }
 
    .sub-heading {
-
       font-size: clamp(0.8rem, 1.8vw, 1.3rem);
       line-height: 1.5;
       font-weight: 600;
@@ -347,7 +329,6 @@ picture {
    padding-inline-start: 0;
    padding-block-start: 2.5rem;
    inset-block-start: -4.525rem;
-
 
    .quote-mark {
       inline-size: clamp(1.8rem, 3.88vw, 3.5rem);
@@ -417,7 +398,6 @@ picture {
    padding: 0;
    transform: translate(-1.375rem, 2.9rem);
 
-
    .text-circle {
       inline-size: 100% !important;
       max-inline-size: 100% !important;
@@ -453,7 +433,6 @@ picture {
    }
 }
 
-
 .sticker {
    position: absolute;
    z-index: var(--z-graphics);
@@ -461,7 +440,6 @@ picture {
    animation: float 2s ease-in-out infinite;
 
    &.sticker-sunflower {
-
       inset-block-start: clamp(1.7rem, 3.6vw, 2.85rem);
 
       inset-inline-start: clamp(1.8rem, 3.5vw, 3.8rem);
@@ -477,7 +455,6 @@ picture {
 
       transform: translateX(-50%);
 
-
       inline-size: clamp(1.5rem, 3vw, 2.5125rem);
       block-size: clamp(1.5rem, 3vw, 2.5125rem);
       animation-delay: 1s;
@@ -488,7 +465,6 @@ picture {
       inset-inline-start: auto;
       inset-inline-end: calc(100% + 0.52rem);
 
-
       inline-size: clamp(2.95rem, 4.25vw, 3.8rem);
       block-size: clamp(2.95rem, 4.25vw, 3.8rem);
 
@@ -496,7 +472,6 @@ picture {
    }
 
    &.sticker-hibiscus {
-
       inset-block-start: clamp(1.5rem, 3.3vw, 2.7rem);
 
       inset-inline-end: clamp(1.8rem, 3.5vw, 3.8rem);
@@ -510,7 +485,6 @@ picture {
       inset-block-start: -1.875rem;
 
       inset-inline-start: -0.4375rem;
-
 
       inline-size: clamp(3.1rem, 4.5vw, 4rem);
       block-size: clamp(3.1rem, 4.5vw, 4rem);
@@ -547,7 +521,6 @@ picture {
    block-size: clamp(2.48rem, 5vw, 4.2rem);
 }
 
-
 .bento-container {
    display: grid;
    grid-template-columns: 1.19fr 1.3fr 1.5fr 1.2fr 1.04fr;
@@ -557,7 +530,6 @@ picture {
    position: relative;
    z-index: 1;
    container-type: inline-size;
-
 
    .grid-col {
       display: flex;
@@ -580,7 +552,6 @@ picture {
       }
 
       &.col-4 {
-
          padding-block-start: 4.8rem;
       }
 
@@ -599,7 +570,9 @@ picture {
 
       animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
       opacity: 0;
-      transition: box-shadow 0.5s ease, filter 0.5s ease;
+      transition:
+         box-shadow 0.5s ease,
+         filter 0.5s ease;
 
       @media (hover: hover) and (pointer: fine) {
          &:hover {
@@ -630,13 +603,11 @@ picture {
       inline-size: 100%;
       border-radius: 1.8rem;
       inset-block-start: -7rem;
-
    }
 
    .col-5 .bento-item {
       inline-size: 100%;
       inset-block-start: 0.9375rem;
-
    }
 
    .hashtag {
@@ -665,7 +636,6 @@ picture {
    }
 }
 
-
 .bottom-controls {
    display: grid;
    grid-template-columns: 1.1fr 1.3fr 1.5fr 1.2fr 1fr;
@@ -685,8 +655,6 @@ picture {
       justify-content: center;
 
       transform: translateY(-1.875rem);
-
-
    }
 
    .scroll-pill {
@@ -712,7 +680,6 @@ picture {
          block-size: 1.1875rem;
 
          transform: translateY(-0.03125rem);
-
       }
 
       @media (hover: hover) and (pointer: fine) {
@@ -740,12 +707,10 @@ picture {
          margin-inline-start: 1rem;
 
          display: flex;
-
       }
 
       .beige-slash {
          position: absolute;
-
 
          inset-inline-start: calc((39.9 / 61) * (100% - 3.2rem) + 1.375rem);
          margin-inline-start: 0;
@@ -771,7 +736,6 @@ picture {
          margin-inline-start: 0.365rem;
 
          transform: translate(0.2rem, 0.74125rem);
-
       }
 
       .page-text {
@@ -829,14 +793,13 @@ picture {
    }
 }
 
-
 @media (width <=1440px) {
    .content-wrapper {
       padding-inline: 2rem;
    }
 }
 
-@media (width <=780px) {
+@media (width <=850px) {
    .content-wrapper {
       display: flex;
       flex-direction: column;
@@ -846,13 +809,12 @@ picture {
 
    .main-header {
       justify-content: flex-start;
-
+      padding-block-end: 1rem;
       gap: 1rem;
 
       &::after {
-         inset-block-end: 0.7rem;
+         inset-block-end: 0rem;
       }
-
 
       .header-actions {
          gap: 4vw;
@@ -873,7 +835,6 @@ picture {
          }
       }
 
-
       .hamburger-btn {
          background: none;
          border: none;
@@ -889,12 +850,14 @@ picture {
 
          order: 3;
 
-
          .bar {
             block-size: 0.56vw;
             background-color: var(--text-primary);
             border-radius: 999px;
-            transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55), opacity 0.3s ease, inline-size 0.3s ease;
+            transition:
+               transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55),
+               opacity 0.3s ease,
+               inline-size 0.3s ease;
 
             transform-origin: center;
 
@@ -918,14 +881,12 @@ picture {
          inset: auto;
          transform: none;
          order: 1;
-
       }
 
       .header-actions {
          margin-inline-start: auto;
 
          order: 2;
-
       }
 
       .nav-links {
@@ -959,7 +920,9 @@ picture {
          opacity: 0;
          pointer-events: none;
          transform: translateY(-10px);
-         transition: opacity 0.4s ease, transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+         transition:
+            opacity 0.4s ease,
+            transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 
          a {
             font-size: clamp(1rem, 3.5vw, 1.3rem);
@@ -967,10 +930,11 @@ picture {
             font-weight: 500;
             opacity: 0;
             transform: translateY(20px);
-            transition: opacity 0.4s ease, transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            transition:
+               opacity 0.4s ease,
+               transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
          }
       }
-
 
       #nav-links:popover-open {
          opacity: 1;
@@ -981,7 +945,6 @@ picture {
          a {
             opacity: 1;
             transform: translateY(0);
-
 
             &:nth-child(1) {
                transition-delay: 0.1s;
@@ -1005,7 +968,6 @@ picture {
          }
       }
 
-
       body:has(#nav-links:popover-open) & .hamburger-btn .bar:nth-child(1) {
          transform: translateY(1.26vw) rotate(45deg);
          inline-size: 4.8vw;
@@ -1021,15 +983,12 @@ picture {
       }
    }
 
-
    body {
-
       & .sticker,
       & .graphic {
          display: none !important;
       }
    }
-
 
    .main-heading {
       font-size: clamp(2.4rem, 9vw, 3.6rem);
@@ -1079,7 +1038,8 @@ picture {
    .bento-item {
       display: grid;
       place-items: stretch;
-      inline-size: 100%;
+      inline-size: 96.5% !important;
+      margin-inline: auto;
       block-size: auto !important;
       aspect-ratio: auto !important;
       inset-block-start: 0 !important;
@@ -1087,7 +1047,6 @@ picture {
       transform: none !important;
 
       .model-img {
-         inline-size: 100%;
          block-size: auto !important;
          object-fit: cover !important;
          object-position: center !important;
@@ -1102,17 +1061,17 @@ picture {
       gap: 1.2rem;
       align-items: start;
       grid-template-areas:
-         "text text text text"
-         ". explore explore ."
-         "hero hero hero hero"
-         "gcap gcap gcap gcap"
-         "red red red red"
-         "striped striped striped striped"
-         "purple purple purple purple"
-         "blue blue blue blue"
-         "ycap ycap ycap ycap"
-         "quote quote quote quote"
-         "hash hash hash hash";
+         'text text text text'
+         '. explore explore .'
+         'hero hero hero hero'
+         'gcap gcap gcap gcap'
+         'red red red red'
+         'striped striped striped striped'
+         'purple purple purple purple'
+         'blue blue blue blue'
+         'ycap ycap ycap ycap'
+         'quote quote quote quote'
+         'hash hash hash hash';
 
       .grid-col {
          display: contents;
@@ -1167,14 +1126,13 @@ picture {
       margin-block-end: 6.5rem;
       transform: none;
 
-
       .text-circle {
          text {
             font-size: 1.1rem;
          }
 
          #circlePath {
-            d: path("M 18 89 A 53 53 0 0 0 82 89");
+            d: path('M 18 89 A 53 53 0 0 0 82 89');
          }
       }
 
@@ -1282,10 +1240,7 @@ picture {
    }
 }
 
-
 @container grid-column (width <=300px) {
-
-
    .quote-block p {
       font-size: clamp(0.8rem, 5cqi, 0.9rem);
    }
