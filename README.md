@@ -34,11 +34,13 @@ An asymmetric bento grid layout inspired by high-fashion editorial design, featu
 
 <h2 align="center">✨ Features</h2>
 
-- 🧩 **Asymmetric Bento Grid** — Complex `grid-template-areas` creating a magazine-style editorial layout
-- 🌸 **Decorative SVG Stickers** — Absolutely positioned floating floral overlays (sunflower, hibiscus, daisy)
-- 📱 **Native Mobile Drawer** — Navigation toggle built with HTML5 `popover="auto"` — zero JavaScript required
-- ⚡ **LCP Optimization** — `<link rel="preload" fetchpriority="high">` for hero graphics ensuring fastest paint
-- 🔤 **Premium Typography** — 7 curated web fonts including Helvetica Neue, Plus Jakarta Sans & Sacramento
+| 🎯 Core Feature | ✨ Technical Implementation |
+| :--- | :--- |
+| 🧩 **Asymmetric Bento Grid** | Complex `grid-template-areas` creating a magazine-style editorial layout |
+| 🌸 **Decorative SVG Stickers** | Absolutely positioned floating floral overlays (sunflower, hibiscus, daisy) |
+| 📱 **Native Mobile Drawer** | Navigation toggle built with HTML5 `popover="auto"` — zero JavaScript required |
+| ⚡ **LCP Optimization** | `<link rel="preload" fetchpriority="high">` for hero graphics ensuring fastest paint |
+| 🔤 **Premium Typography** | 7 curated web fonts including Helvetica Neue, Plus Jakarta Sans & Sacramento |
 
 <br/>
 
