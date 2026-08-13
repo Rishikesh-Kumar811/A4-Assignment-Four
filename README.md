@@ -22,23 +22,11 @@ An asymmetric bento grid layout inspired by high-fashion editorial design, featu
 
 </div>
 
-<br/>
-
----
-
-<br/>
-
 ## 🛠️ Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css" alt="Tech Stack" />
 </p>
-
-<br/>
-
----
-
-<br/>
 
 ## ✨ Features
 
@@ -48,21 +36,9 @@ An asymmetric bento grid layout inspired by high-fashion editorial design, featu
 - ⚡ **LCP Optimization** — `<link rel="preload" fetchpriority="high">` for hero graphics ensuring fastest paint
 - 🔤 **Premium Typography** — 7 curated web fonts including Helvetica Neue, Plus Jakarta Sans & Sacramento
 
-<br/>
-
----
-
-<br/>
-
 ## 🏗️ Architecture
 
 > Bento Grid Layout Architecture using pure native browser web standards with zero external dependencies.
-
-<br/>
-
----
-
-<br/>
 
 ## 🚀 Quick Start
 
@@ -73,10 +49,6 @@ git clone https://github.com/Rishikesh-Kumar811/A4-Assignment-Four.git
 # Open in browser
 cd A4-Assignment-Four && open index.html
 \`\`\`
-
-<br/>
-
----
 
 <div align="center">
 
