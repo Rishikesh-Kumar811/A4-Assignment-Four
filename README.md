@@ -22,13 +22,17 @@ An asymmetric bento grid layout inspired by high-fashion editorial design, featu
 
 </div>
 
-## 🛠️ Tech Stack
+<br/>
+
+<h2 align="center">🛠️ Tech Stack</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css" alt="Tech Stack" />
 </p>
 
-## ✨ Features
+<br/>
+
+<h2 align="center">✨ Features</h2>
 
 - 🧩 **Asymmetric Bento Grid** — Complex `grid-template-areas` creating a magazine-style editorial layout
 - 🌸 **Decorative SVG Stickers** — Absolutely positioned floating floral overlays (sunflower, hibiscus, daisy)
@@ -36,11 +40,15 @@ An asymmetric bento grid layout inspired by high-fashion editorial design, featu
 - ⚡ **LCP Optimization** — `<link rel="preload" fetchpriority="high">` for hero graphics ensuring fastest paint
 - 🔤 **Premium Typography** — 7 curated web fonts including Helvetica Neue, Plus Jakarta Sans & Sacramento
 
-## 🏗️ Architecture
+<br/>
+
+<h2 align="center">🏗️ Architecture</h2>
 
 > Bento Grid Layout Architecture using pure native browser web standards with zero external dependencies.
 
-## 🚀 Quick Start
+<br/>
+
+<h2 align="center">🚀 Quick Start</h2>
 
 \`\`\`bash
 # Clone the repository
@@ -49,6 +57,8 @@ git clone https://github.com/Rishikesh-Kumar811/A4-Assignment-Four.git
 # Open in browser
 cd A4-Assignment-Four && open index.html
 \`\`\`
+
+<br/>
 
 <div align="center">
 
