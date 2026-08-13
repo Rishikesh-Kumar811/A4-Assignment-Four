@@ -62,13 +62,7 @@ cd A4-Assignment-Four && open index.html
 
 <br/>
 
-**[⬆ Back to Top](#bento-grid-editorial)**
-
-<br/>
-
-<a href="https://github.com/Rishikesh-Kumar811/A4-Assignment-Four/stargazers"><img src="https://img.shields.io/github/stars/Rishikesh-Kumar811/A4-Assignment-Four?style=for-the-badge&color=f5a623&label=Star%20this%20Repo" alt="Stars" /></a>
-
-<sub>Built with ♥ by <a href="https://github.com/Rishikesh-Kumar811">Rishikesh</a></sub>
+<h3>Built with ❤️ by <a href="https://github.com/Rishikesh-Kumar811">Rishikesh</a></h3>
 
 </div>
 
