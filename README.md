@@ -2,7 +2,7 @@
 
 <br/>
 
-# 🧩 Bento Grid Editorial
+<h1>🧩 Bento Grid Editorial</h1>
 
 ### High-Fashion Asymmetric Bento Grid Layout
 
