@@ -1,64 +1,69 @@
 <div align="center">
-  # 🌟 Modern Web Layouts
-  **Advanced UI layout mastery.** <br/>
-  A responsive web development project showcasing advanced CSS Grid and Flexbox techniques.
-  
-  <br />
 
-  <div align="center">
-    <img src="https://badgen.net/badge/HTML5/%20/E34F26?icon=html5&labelColor=E34F26" alt="HTML5" height="36" /> &nbsp;
-    <img src="https://badgen.net/badge/CSS3/%20/1572B6?icon=css3&labelColor=1572B6" alt="CSS3" height="36" /> &nbsp;
-    <img src="https://badgen.net/badge/JavaScript/%20/323330?icon=javascript&labelColor=323330" alt="JavaScript" height="36" />
-  </div>
-  
+<br/>
+
+# Bento Grid Editorial
+
+### High-Fashion Asymmetric Bento Grid Layout
+
+<br/>
+
+An asymmetric bento grid layout inspired by high-fashion editorial design, featuring decorative SVG stickers, font preloading, and native mobile drawer navigation.
+
+<br/>
+
+<p align="center">
+  <a href="https://assignment-4-tau-sepia.vercel.app"><img src="https://img.shields.io/badge/▶_LIVE_DEMO-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>&nbsp;
+  <a href="https://github.com/Rishikesh-Kumar811/A4-Assignment-Four/issues"><img src="https://img.shields.io/badge/🐛_REPORT_BUG-FF4444?style=for-the-badge" alt="Report Bug" /></a>&nbsp;
+  <a href="https://github.com/Rishikesh-Kumar811/A4-Assignment-Four/issues"><img src="https://img.shields.io/badge/✨_REQUEST_FEATURE-8B5CF6?style=for-the-badge" alt="Request Feature" /></a>
+</p>
+
 </div>
 
 ---
 
-## 📸 Visuals & Live Demo
-*(Placeholder: Insert a beautiful screenshot or GIF of the UI here to demonstrate the application working in a production environment).*
+## 🛠️ Tech Stack
 
-> **[View Live Demo](https://assignment-4-tau-sepia.vercel.app) | [Report Bug](https://github.com/Rishikesh-Kumar811/A4-Assignment-Four/issues) | [Request Feature](https://github.com/Rishikesh-Kumar811/A4-Assignment-Four/issues)**
-
----
-
-## ✨ Key Features & UI/UX Highlights
-This repository is built with a strict focus on modern web standards, beautiful responsive design, and high performance.
-
-- **Advanced CSS Grid**: Utilized complex grid-template-areas for a robust, multi-dimensional layout.
-- **Responsive Breakpoints**: Mobile-first design approach ensuring seamless scaling up to ultra-wide displays.
-- **Performance Optimized**: Zero external heavy libraries; purely relies on native browser rendering for 60fps scrolling.
-
-## 🧠 Architecture & Technical Logic
-**Why this stack?**  
-Demonstrates deep understanding of CSS box-model mechanics and positioning. The UI logic is completely separated from content, utilizing custom CSS variables (custom properties) for rapid theming and scalable styling.
-
-The project emphasizes a clean directory structure, separation of concerns, and maintainable styles, serving as a testament to scalable frontend engineering.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css" alt="Tech Stack" />
+</p>
 
 ---
 
-## 🚀 Quick Start (DevEx)
-To get this project running locally on your machine in seconds:
+## ✨ Features
 
-```bash
-# 1. Clone the repository
+- 🧩 **Asymmetric Bento Grid** — Complex `grid-template-areas` creating a magazine-style editorial layout
+- 🌸 **Decorative SVG Stickers** — Absolutely positioned floating floral overlays (sunflower, hibiscus, daisy)
+- 📱 **Native Mobile Drawer** — Navigation toggle built with HTML5 `popover="auto"` — zero JavaScript required
+- ⚡ **LCP Optimization** — `<link rel="preload" fetchpriority="high">` for hero graphics ensuring fastest paint
+- 🔤 **Premium Typography** — 7 curated web fonts including Helvetica Neue, Plus Jakarta Sans & Sacramento
+
+---
+
+## 🏗️ Architecture
+
+> Bento Grid Layout Architecture using pure native browser web standards with zero external dependencies.
+
+---
+
+## 🚀 Quick Start
+
+\`\`\`bash
+# Clone the repository
 git clone https://github.com/Rishikesh-Kumar811/A4-Assignment-Four.git
 
-# 2. Navigate into the directory
-cd A4-Assignment-Four
-
-# 3. Install dependencies (if applicable)
-npm install
-
-# 4. Start the development server
-npm run dev 
-# (Or simply open index.html in your browser for pure HTML/JS projects)
-```
+# Open in browser
+cd A4-Assignment-Four && open index.html
+\`\`\`
 
 ---
 
 <div align="center">
-  <i>Engineered with focus and precision.</i> <br/>
-  <br/>
-  <img src="https://badgen.net/badge/Built%20with/%20/ff69b4?icon=heart&labelColor=ff69b4" height="36" />
+
+**[⬆ Back to Top](#bento-grid-editorial)**
+
+<br/>
+
+<img src="https://img.shields.io/badge/BUILT_WITH-❤️-ff69b4?style=for-the-badge" alt="Built with Love" />
+
 </div>
