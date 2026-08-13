@@ -24,7 +24,7 @@ An asymmetric bento grid layout inspired by high-fashion editorial design, featu
 
 <br/>
 
-<h2 align="center">🛠️ Tech Stack</h2>
+<h3 align="center">🛠️ Tech Stack</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css" alt="Tech Stack" />
@@ -32,7 +32,7 @@ An asymmetric bento grid layout inspired by high-fashion editorial design, featu
 
 <br/>
 
-<h2 align="center">✨ Features</h2>
+<h3 align="center">✨ Features</h3>
 
 | 🎯 Core Feature | ✨ Technical Implementation |
 | :--- | :--- |
@@ -44,13 +44,13 @@ An asymmetric bento grid layout inspired by high-fashion editorial design, featu
 
 <br/>
 
-<h2 align="center">🏗️ Architecture</h2>
+<h3 align="center">🏗️ Architecture</h3>
 
 > Bento Grid Layout Architecture using pure native browser web standards with zero external dependencies.
 
 <br/>
 
-<h2 align="center">🚀 Quick Start</h2>
+<h3 align="center">🚀 Quick Start</h3>
 
 \`\`\`bash
 # Clone the repository
