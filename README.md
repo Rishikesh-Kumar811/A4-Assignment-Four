@@ -2,7 +2,7 @@
 
 <br/>
 
-# Bento Grid Editorial
+# 🧩 Bento Grid Editorial
 
 ### High-Fashion Asymmetric Bento Grid Layout
 
@@ -60,10 +60,10 @@ cd A4-Assignment-Four && open index.html
 
 <div align="center">
 
-**[⬆ Back to Top](#bento-grid-editorial)**
+**[⬆ Back to Top](#🧩-bento-grid-editorial)**
 
 <br/>
 
-<img src="https://img.shields.io/badge/Built_with_%E2%99%A5-ff69b4?style=for-the-badge" alt="Built with Love" />
+<img src="https://badgen.net/badge/Built%20with%20%E2%99%A5//ff69b4?label&labelColor=ff69b4" alt="Built with Love" height="40" />
 
 </div>
